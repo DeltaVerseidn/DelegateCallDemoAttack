@@ -10,6 +10,7 @@ contract Called{
 		number = newNumber;
 		emit NumberChanged(msg.sender, newNumber);
 	}
+
 }
 
 contract Caller{
@@ -71,4 +72,5 @@ contract Attacker {
     }
 
 }
+
 

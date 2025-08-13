@@ -27,4 +27,5 @@ contract Attacker {
         number = newNumber + 10;
         emit NumberChanged(msg.sender, newNumber);
     }
+
 }
